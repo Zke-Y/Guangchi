@@ -1,0 +1,58 @@
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login-box {
+	z-index: 4;
+	margin-top: 126px;
+	width: 100%;
+	max-width: 500px;
+	height: 450px;
+	top: 50%;
+}
+
+.login-box form {
+	width: 100%;
+	max-width: 500px;
+	height: 250px;
+	margin: 2px auto 0px auto;
+}
+
+.login-content {
+	border-radius: 8px;
+	height: 250px;
+	width: 100%;
+	max-width: 500px;
+	background-color: rgba(255, 250, 2550, .6);
+	float: left;
+}
+
+.login-content form .form-group input {
+	background-color: #fff;
+	border-radius: 15px;
+	border: 0;
+}
+
+.login-content form .form-group input:hover {
+	background-color: #eee;
+	color: #495057;
+}
+
+.login:hover {
+	border-color: red;
+}
+
+.sign_in:hover {
+	border-color: red;
+}
+
+.reset:hover {
+	border-color: red;
+}
+
+.form-group button {
+	background-color: #fff;
+}
